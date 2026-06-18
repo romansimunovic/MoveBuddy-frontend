@@ -6,5 +6,5 @@ export const COLORS = {
     textDark: '#212529',      // Glavni tekst, visoki kontrast
     textLight: '#6C757D',     // Sporedni tekst (trajanje, udaljenost)
     border: '#E9ECEF',        // Suptilne linije i obrubi
-    error: '#FF6B6B'          // Crvena za validacijske greške
+    error: '#FF6B6B'          
 };

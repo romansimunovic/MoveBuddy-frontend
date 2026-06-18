@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // NAPOMENA: Ako testiraš na pravom mobitelu, zamijeni 'localhost' sa svojom lokalnom IP adresom (npr. 192.168.x.x)
 const API = axios.create({
-    baseURL: 'http://localhost:8080/api',
+    baseURL: 'http://10.0.2.2:8080',
     timeout: 10000,
     headers: {
         'Content-Type': 'application/json',

@@ -6,7 +6,7 @@ import { COLORS } from '../theme/colors';
 export default function AddActivityScreen({ route, navigation }) {
     // Provjeravamo uređujemo li postojeću aktivnost ili dodajemo novu
     const editMode = route.params?.activity;
-
+//
     const [form, setForm] = useState({
         name: editMode?.name || '',
         duration: editMode?.duration?.toString() || '',

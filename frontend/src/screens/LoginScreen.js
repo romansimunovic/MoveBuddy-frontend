@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { StyleSheet, Text, TextInput, TouchableOpacity, View, Alert } from 'react-native';
 import API from '../api/axiosConfig';
 import { COLORS } from '../theme/colors';
-
+//
 export default function LoginScreen({ navigation }) {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
