@@ -6,7 +6,6 @@ import { COLORS } from '../theme/colors';
 export default function DashboardScreen() {
     const [activities, setActivities] = useState([]);
     const [loading, setLoading] = useState(true);
-
     useEffect(() => {
         fetchActivities();
     }, []);
